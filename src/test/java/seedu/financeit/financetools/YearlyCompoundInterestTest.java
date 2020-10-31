@@ -13,6 +13,7 @@ public class YearlyCompoundInterestTest {
         return InputParser.getInstance().parseInput(input.toLowerCase());
     }
 
+    // test
     @Test
     void calculateCompoundInterest_inputAmount_expectCorrectInterestEarned() {
         CommandPacket packet = handleInput("cyearly /a 1000 /r 3 /p 2");
